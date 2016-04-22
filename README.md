@@ -20,7 +20,7 @@ USB stick must be FAT32 and add this at the end of the file.
 Should work with any USB stick, if not use `sudo blkid` to get the UUID and use it instead of `/dev/sda1` (e.g. `UUID=E3AB-886E`).
 
 ```
-/dev/sda1 /media/mbb       vfat    defaults          0       2
+/dev/sda1 /media/data       vfat    defaults          0       2
 ```
 
 ## Clone the project
