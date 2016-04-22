@@ -32,6 +32,8 @@ git clone https://github.com/etrange-miroir/territoire.git
 
 ## Run script
 
+Add the following to the bottom of `/etc/rc.local`
+
 ```
 sudo sh -c "TERM=linux setterm -foreground black -clear >/dev/tty0" && amixer cset numid=3 1 && cd /home/pi/territoire && sudo /opt/node/bin/node client.js
 ```
