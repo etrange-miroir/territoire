@@ -1,0 +1,11 @@
+{
+  "name": "territoire",
+  "version": "0.0.1",
+  "description": "Rpi code pour les rendu territoire",
+  "author": "Xavier Seignard <xavier.seignard@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "wiring-pi": "0.1.2",
+    "js-yaml": "3.6.0"
+  }
+}
